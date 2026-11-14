@@ -1,0 +1,20 @@
+# Generated data (bohat bari files, GitHub par nahi jani chahiye)
+data/*.parquet
+data/*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
